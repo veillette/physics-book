@@ -75,12 +75,13 @@ function skier(t) {
   body +=
     arrow(x, y, 0, k * s.weight, C.red) +
     arrow(x, y, -k * s.normal * sn, -k * s.normal * c, C.blue) +
-    arrow(x, y, k * s.friction * c, -k * s.friction * sn, C.green, 3);
+    // Friction (45 N) is about 8% of N, so it is drawn five times larger.
+    arrow(x, y, 5 * k * s.friction * c, -5 * k * s.friction * sn, C.green, 3);
   body +=
-    text(300, 61, 'Blue N; red weight; green friction (one force scale)', 16) +
+    text(300, 61, 'Blue N; red weight (same scale); green friction × 5', 16) +
     readout(610, 91, 't (s)', s.time, 1, 2) +
     readout(610, 136, 'N (N)', s.normal, 3, 1) +
-    readout(610, 181, 'f k (N)', s.friction, 2, 1) +
+    readout(610, 181, 'f_k (N)', s.friction, 2, 1) +
     readout(610, 226, 'a (m/s²)', s.acceleration, 1, 2) +
     readout(610, 271, 'v (m/s)', s.speed, 2, 2);
   return panel(
@@ -130,10 +131,12 @@ function loop(t) {
     [x, y] = loopMap(s.position),
     nx = Math.sin(s.heading),
     ny = Math.cos(s.heading);
-  let body = path(loopGeometry.points.map(loopMap), C.guide, 'none', 4) + dot(x, y, 7, C.purple);
+  // 1.6 px per m/s² keeps the weight arrow visible beyond the car dot; the
+  // largest normal force (5.7 mg) is then about 90 px.
+  let body = path(loopGeometry.points.map(loopMap), C.guide, 'none', 4) + dot(x, y, 5, C.purple);
   body +=
-    arrow(x, y, 1.05 * s.normalPerMass * nx, 1.05 * s.normalPerMass * ny, C.blue) +
-    arrow(x, y, 0, 1.05 * 9.8, C.red, 3);
+    arrow(x, y, 1.6 * s.normalPerMass * nx, 1.6 * s.normalPerMass * ny, C.blue) +
+    arrow(x, y, 0, 1.6 * 9.8, C.red, 3);
   body +=
     text(315, 60, 'Blue: track normal; red: weight', 17) +
     text(315, 313, 'Equal model times; actual teardrop geometry', 17);

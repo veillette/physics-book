@@ -96,6 +96,10 @@ const axes2 = (x, y, w, h, xLabel, yLabel) =>
   arrow(x, y, 0, -h, C.ink, 1.5) +
   text(x + w, y - 8, xLabel, 14, C.ink, 'end') +
   text(x + 8, y - h + 10, yLabel, 14, C.ink, 'start');
+// Same axes with the horizontal label just past the arrow tip, clear of any
+// curve or shaded area that reaches the right end of the plot.
+const axesOut = (x, y, w, h, xLabel, yLabel) =>
+  axes2(x, y, w, h, '', yLabel) + text(x + w + 6, y + 5, xLabel, 14, C.ink, 'start');
 const SUP = {
   '-': '⁻',
   0: '⁰',
@@ -212,7 +216,8 @@ function train(t) {
     const ox = 80 + i * 275,
       g = plot(ox, 300, 220, 120, [0, 50], range);
     b +=
-      axes2(ox, 300, 225, 128, 't (s)', '') +
+      axes2(ox, 300, 225, 128, '', '') +
+      text(ox + 225, 317, 't (s)', 13, C.ink, 'end') +
       text(ox + 110, 162, label, 14, color) +
       (range[0] < 0 ? line(ox, g.Y(0), ox + 220, g.Y(0), C.grid, 1) : '') +
       path(
@@ -255,19 +260,19 @@ function jetArea(t) {
   const time = 30 * t,
     s = jetCarMotion(time),
     v = plot(90, 295, 330, 210, [0, 30], [0, 170]),
-    x = plot(520, 295, 330, 210, [0, 30], [0, 3200]);
+    x = plot(505, 295, 330, 210, [0, 30], [0, 3200]);
   const area = [
     [v.X(0), v.Y(0)],
     ...series(q => [v.X(time * q), v.Y(jetCarMotion(time * q).v)], 30),
     [v.X(time), v.Y(0)],
   ];
   let b =
-    axes2(90, 295, 340, 220, 't (s)', 'v (m/s)') +
+    axesOut(90, 295, 340, 220, 't (s)', 'v (m/s)') +
     polygon(area, C.fill, C.blue) +
     line(v.X(0), v.Y(15), v.X(30), v.Y(165), C.green, 2.5) +
     dot(v.X(time), v.Y(s.v), 6, C.green);
   b +=
-    axes2(520, 295, 340, 220, 't (s)', 'x (m)') +
+    axesOut(505, 295, 335, 220, 't (s)', 'x (m)') +
     path(
       series(q => [x.X(30 * q), x.Y(jetCarMotion(30 * q).x)]),
       C.grid,
@@ -300,9 +305,9 @@ function topSpeed(t) {
   const time = 4 + 60 * t,
     s = topSpeedMotion(time),
     v = plot(90, 295, 360, 220, [0, 70], [160, 260]),
-    a = plot(530, 295, 320, 220, [0, 70], [0, 5.5]);
+    a = plot(515, 295, 310, 220, [0, 70], [0, 5.5]);
   let b =
-    axes2(90, 295, 370, 230, 't (s)', 'v (m/s)') +
+    axesOut(90, 295, 370, 230, 't (s)', 'v (m/s)') +
     path(
       series(q => [v.X(70 * q), v.Y(topSpeedMotion(70 * q).v)]),
       C.green,
@@ -317,7 +322,7 @@ function topSpeed(t) {
     line(v.X(t1), v.Y(s.v - 10 * s.a), v.X(t1), v.Y(s.v + 10 * s.a), C.guide, 1, '4 3') +
     dot(v.X(time), v.Y(s.v), 6, C.ink);
   b +=
-    axes2(530, 295, 330, 230, 't (s)', 'a (m/s²)') +
+    axesOut(515, 295, 320, 230, 't (s)', 'a (m/s²)') +
     path(
       series(q => [a.X(70 * q), a.Y(topSpeedMotion(70 * q).a)]),
       C.grid,
@@ -606,7 +611,7 @@ function componentAddition(t) {
     [[ax, ay], [bx, by]] = walkSum.parts;
   const slide = clamp((t - 0.25) / 0.3),
     rise = clamp((t - 0.25) / 0.3);
-  let b = axes2(ox, oy, 470, 260, 'x (east)', 'y (north)');
+  let b = axes2(ox, oy, 470, 240, 'x (east)', 'y (north)');
   b +=
     arrow(ox, oy, ax * k, -ay * k, C.red, 3) +
     arrow(ox + ax * k, oy - ay * k, bx * k, -by * k, C.green, 3);
@@ -659,7 +664,7 @@ function vectorSubtraction(t) {
       t > 0.15 && t < 0.5,
       text(ox + ax * k + 40, oy - ay * k - 70, 'B turns around', 15, C.green)
     ) +
-    visible(t >= 0.5, text(ox + ax * k + 22, oy - ay * k + 120, '−B', 18, C.green)) +
+    visible(t >= 0.5, text(ox + ax * k - 16, oy - ay * k + 82, '−B', 18, C.green, 'start')) +
     visible(t > 0.6, arrow(ox, oy, walkDifference.x * k, -walkDifference.y * k, C.blue, 3.5));
   b +=
     text(600, 100, '−B: same length, opposite direction', 15, C.green, 'start') +
@@ -750,7 +755,7 @@ function trafficLight(t) {
     text(635, 250, 'T₁ᵧ + T₂ᵧ', 15, C.ink, 'end') +
     text(735, 250, '= w = 147 N', 15, C.red, 'start') +
     text(L[0] - 105, L[1] - 15, 'T₁ = 108 N', 15, C.blue) +
-    text(L[0] + 85, L[1] - 20, 'T₂ = 132 N', 15, C.purple, 'start') +
+    text(L[0] + 30, L[1] + 12, 'T₂ = 132 N', 15, C.purple, 'start') +
     text(L[0] + 22, L[1] + 110, 'w = 147 N', 15, C.red, 'start');
   return panel(
     'Resolve each tension, then balance x and y separately',
@@ -898,9 +903,9 @@ function pushPull(t) {
       text(ox, 290, isPush ? 'Push: N = mg + F sin θ' : 'Pull: N = mg − F sin θ', 14) +
       text(ox, 312, isPush ? 'more normal force' : 'less normal force', 13, C.guide);
   }
-  const g = plot(560, 270, 290, 190, [0, 40], [40, 66]);
+  const g = plot(545, 270, 280, 190, [0, 40], [40, 66]);
   b +=
-    axes2(560, 270, 300, 200, 'θ (°)', 'F needed (N)') +
+    axesOut(545, 270, 290, 200, 'θ (°)', 'F needed (N)') +
     path(
       series(q => [g.X(40 * q), g.Y(startingForce(40 * q, true).force)]),
       C.red,
@@ -1102,8 +1107,8 @@ function inverseSquareForce(t) {
     dot(xm, 185, 12, C.red) +
     line(xM, 230, xm, 230, C.guide, 1) +
     text((xM + xm) / 2, 250, 'r', 16) +
-    arrow(xM, 140, 120 * F, 0, C.blue, 3) +
-    arrow(xm, 155, -120 * F, 0, C.red, 3) +
+    arrow(xM, 140, 70 * F, 0, C.blue, 3) +
+    arrow(xm, 152, -70 * F, 0, C.red, 3) +
     text(xM, 225, 'M', 15) +
     text(xm, 215, 'm', 15);
   b +=
@@ -1120,7 +1125,7 @@ function inverseSquareForce(t) {
     [2, '2r₀: F₀/4'],
     [3, '3r₀: F₀/9'],
   ])
-    b += text(g.X(n), 308, label, 12);
+    b += text(g.X(n), 308, label, 13);
   b += text(290, 300, 'F = GmM / r²', 17);
   return panel(
     'Gravitational force falls with the square of distance',
@@ -1297,22 +1302,20 @@ function darkRoom(t) {
   const time = -1.5 + 3 * t,
     c = darkRoomCollision(),
     k = 70,
-    P = [300, 185];
+    P = [300, 185],
+    // Frictionless pucks: m₂ can only be pushed along the line of centers, so
+    // at contact that line must point along v₂′. Puck radii 10 and 13 sum to 23.
+    n = [Math.cos(c.th2), -Math.sin(c.th2)],
+    Q = [P[0] + 23 * n[0], P[1] + 23 * n[1]];
   const m1 =
       time < 0
         ? [P[0] + k * c.v1 * time, P[1]]
         : [P[0] + k * c.v1f * time * Math.cos(c.th1), P[1] - k * c.v1f * time * Math.sin(c.th1)],
-    m2 =
-      time < 0
-        ? P
-        : [
-            P[0] + k * c.v2f * time * Math.cos(c.th2) + 23,
-            P[1] - k * c.v2f * time * Math.sin(c.th2),
-          ];
+    m2 = time < 0 ? Q : [Q[0] + k * c.v2f * time * n[0], Q[1] + k * c.v2f * time * n[1]];
   let b =
     rect(170, 75, 270, 225, C.ink, 'none', 0.14) +
     text(305, 95, 'dark room', 13, C.guide) +
-    dot(m2[0] + (time < 0 ? 23 : 0), m2[1], 13, C.red) +
+    dot(m2[0], m2[1], 13, C.red) +
     dot(m1[0], m1[1], 10, C.blue);
   const s = 400,
     O = [560, 230],
@@ -1408,7 +1411,12 @@ function pole(t) {
     arrow(hl, y + (left >= 0 ? -6 : 6), 0, -left * fScale, C.blue, 3) +
     arrow(hr, y + (right >= 0 ? -6 : 6), 0, -right * fScale, C.purple, 3) +
     arrow(cg, y + 6, 0, 49 * fScale, C.red, 3) +
-    text(cg, y + 105, 'w = 49.0 N at the cg', 13, C.red) +
+    // Label on whichever side of the weight arrow is clear of the faded figure.
+    visible(cg < hl + 72, text(cg - 8, y + 95, 'w = 49.0 N at the cg', 13, C.red, 'end')) +
+    visible(
+      cg >= hl + 72,
+      text(Math.max(cg + 8, hl + 100), y + 95, 'w = 49.0 N at the cg', 13, C.red, 'start')
+    ) +
     text(hl, 318, 'left hand', 13, C.blue) +
     text(hr, 318, 'right hand', 13, C.purple);
   const xs = [0.45, 0.5, 0.6, 0.3, 0, -0.25, -0.5],
@@ -1516,13 +1524,18 @@ function twins(t) {
 }
 
 function gyroscope(t) {
-  const phi = 2 * Math.PI * t,
+  // Screen x is +x, screen down is +z (toward the viewer, drawn obliquely), and
+  // up is +y. With r = d(cos φ, 0, sin φ) and w = −mg ŷ, τ = r × w points along
+  // (sin φ, 0, −cos φ). The spin mark turns so that L points outward along r;
+  // dL/dt = τ then requires φ to decrease.
+  const phi = -2 * Math.PI * t,
     P = [300, 155],
     d = 150,
     depth = 0.35,
     c = [P[0] + d * Math.cos(phi), P[1] + d * Math.sin(phi) * depth],
     R = 55,
     u = [-Math.sin(phi), Math.cos(phi)],
+    tau = [Math.sin(phi), -Math.cos(phi)],
     disk = Array.from({ length: 24 }, (_, i) => {
       const a = (2 * Math.PI * i) / 24;
       return [
@@ -1530,7 +1543,8 @@ function gyroscope(t) {
         c[1] + R * Math.cos(a) * u[1] * depth - R * Math.sin(a),
       ];
     }),
-    spin = 8 * Math.PI * t,
+    // cos(s) u + sin(s) ŷ turns about u × ŷ = −L̂, so s runs backward.
+    spin = -8 * Math.PI * t,
     mark = [
       c[0] + R * Math.cos(spin) * u[0],
       c[1] + R * Math.cos(spin) * u[1] * depth - R * Math.sin(spin),
@@ -1543,7 +1557,7 @@ function gyroscope(t) {
     dot(mark[0], mark[1], 5, C.red) +
     arrow(c[0], c[1], 80 * Math.cos(phi), 80 * Math.sin(phi) * depth, C.green, 3.5) +
     arrow(c[0], c[1], 0, 70, C.red, 2.5) +
-    arrow(P[0], P[1], 70 * u[0], 70 * u[1] * depth, C.purple, 3.5);
+    arrow(P[0], P[1], 70 * tau[0], 70 * tau[1] * depth, C.purple, 3.5);
   const T = [720, 185];
   b += `<circle cx="${T[0]}" cy="${T[1]}" r="80" fill="none" stroke="${C.grid}" stroke-width="1"/>${dot(
     T[0],
@@ -1553,8 +1567,8 @@ function gyroscope(t) {
   )}${arrow(T[0], T[1], 80 * Math.cos(phi), 80 * Math.sin(phi), C.green, 3)}${arrow(
     T[0] + 80 * Math.cos(phi),
     T[1] + 80 * Math.sin(phi),
-    35 * u[0],
-    35 * u[1],
+    35 * tau[0],
+    35 * tau[1],
     C.purple,
     3
   )}${text(T[0], 80, 'Seen from above', 15)}${text(T[0], 300, 'ΔL points along τ', 14, C.purple)}`;
@@ -1581,8 +1595,8 @@ function merry(t) {
     const s = merryGoRound(r, deg),
       theta = 0.5 * s.alpha * time * time,
       cx = 160 + i * 290,
-      cy = 175,
-      R = 85;
+      cy = 162,
+      R = 75;
     b += `<circle cx="${cx}" cy="${cy}" r="${R}" fill="${C.fill}" stroke="${C.ink}" stroke-width="2"/>`;
     for (let k = 0; k < 4; k += 1) {
       const a = theta + (k * Math.PI) / 2;
@@ -1600,7 +1614,7 @@ function merry(t) {
       ];
     b +=
       dot(p[0], p[1], 6, C.red) +
-      arrow(p[0] - 60 * F[0], p[1] - 60 * F[1], 60 * F[0], 60 * F[1], C.red, 3) +
+      arrow(p[0] - 44 * F[0], p[1] - 44 * F[1], 44 * F[0], 44 * F[1], C.red, 3) +
       text(cx, 295, label, 15) +
       text(
         cx,

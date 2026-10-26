@@ -252,8 +252,10 @@ export default {
     const [hold, fade, T] = [0.6, 0.45, 7];
     const dur = `${T}s`;
     const pair = (base, isAfter, [x1, x2, shown]) => {
-      block(svg, x1, base, s1, 'm_1');
+      // m₂'s shaded side face is on its left; drawing m₂ first lets m₁ cover
+      // it at contact instead of the face overlapping m₁.
       block(svg, x2, base, s2, 'm_2');
+      block(svg, x1, base, s1, 'm_1');
       const y1 = base - s1 / 2;
       const y2 = base - s2 / 2;
       svg.add(`<g opacity="${shown}">`);
@@ -323,7 +325,7 @@ export default {
     svg.text(20, 112, 'Before', { size: 24, math: false, anchor: 'start' });
     svg.text(205, 76, '\\rm{KE}_{int} = mv^2', { size: 25 });
     svg.text(470, 84, 'net **F** = 0', { size: 24, math: false });
-    svg.text(235, 155, 'p_1 + p_2 = 0', { size: 25 });
+    svg.text(235, 138, 'p_1 + p_2 = 0', { size: 25 });
     surface(svg, 55, 520, base);
     // Animation: each block closes the gap at speed v until they meet. The
     // arrows fade before their heads cross.
@@ -332,8 +334,9 @@ export default {
     const [hold, fade, T] = [0.6, 0.5, 5.5];
     const meet = hold + gap / (2 * speed);
     const toward = ([dx, shown]) => {
-      block(svg, 75 + dx, base, s, 'm');
+      // Right block first, so the left block covers its side face at contact.
       block(svg, 405 - dx, base, s, 'm');
+      block(svg, 75 + dx, base, s, 'm');
       svg.add(`<g opacity="${shown}">`);
       velocity(svg, 75 + s + dx, 245 + dx, base - s / 2, 'v');
       velocity(svg, 395 - dx, 325 - dx, base - s / 2, '−v');
@@ -361,8 +364,8 @@ export default {
     svg.text(700, 76, '\\rm{KE′}_{int} = 0', { size: 25 });
     svg.text(770, 142, 'p′_1 + p′_2 = 0', { size: 25 });
     surface(svg, 610, 960, base);
-    block(svg, 690, base, s, 'm');
     block(svg, 690 + s, base, s, 'm');
+    block(svg, 690, base, s, 'm');
     svg.text(925, base - s / 2, 'v = 0', { size: 25 });
     svg.text(790, 300, 'Frictionless surface', { size: 22, math: false });
     svg.text(790, 352, '(b)', { size: 22, math: false });

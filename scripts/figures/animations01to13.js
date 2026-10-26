@@ -128,7 +128,7 @@ function meter(t) {
 
 function uncertainty(t) {
   const X = v => 100 + (v - 24.4) * 580;
-  let b = axes(100, 265, 700, 190, 'Length (cm)', '');
+  let b = arrow(100, 265, 710, 0, C.ink, 1.5) + text(450, 314, 'Length (cm)', 16);
   for (let i = 0; i <= 6; i++) {
     const v = 24.4 + i * 0.2;
     b += text(X(v), 291, v.toFixed(1), 15);
@@ -155,7 +155,7 @@ function uncertainty(t) {
 }
 
 function cars(t) {
-  let b = text(700, 68, 'Velocity v', 16, C.green) + text(810, 68, 'Acceleration a', 16, C.purple);
+  let b = text(700, 68, 'Velocity v', 15, C.green) + text(825, 68, 'Acceleration a', 15, C.purple);
   for (let i = 0; i < 4; i++) {
     const s = carMotion(t * 3, i),
       y = 105 + i * 54,
@@ -163,11 +163,16 @@ function cars(t) {
     b +=
       line(65, y + 17, 510, y + 17, C.grid) +
       car(x, y) +
-      arrow(600, y, s.v * 0.75, 0, C.green) +
-      arrow(790, y, s.a * 3, 0, C.purple);
-    b +=
-      text(560, y + 5, ['(a)', '(b)', '(c)', '(d)'][i], 16) +
-      text(90, y - 19, i === 0 || i === 3 ? 'speeding up' : 'slowing down', 13, C.guide, 'start');
+      arrow(700, y, s.v * 0.75, 0, C.green) +
+      arrow(825, y, s.a * 3, 0, C.purple);
+    b += text(
+      522,
+      y + 5,
+      `${['(a)', '(b)', '(c)', '(d)'][i]} ${i === 0 || i === 3 ? 'speeding up' : 'slowing down'}`,
+      14,
+      C.ink,
+      'start'
+    );
   }
   return panel(
     'Acceleration changes velocity, including its sign',
@@ -188,10 +193,11 @@ function distance(t) {
       line(X(p[0]), y + 12, X(x), y + 12, C.blue, 4) +
       text(65, y + 5, 'ABCD'[i], 17);
     b +=
-      rect(660, y - 13, s * 8, 8, C.gold, 'none') +
-      text(640, y + 15, 'distance', 13, C.gold, 'end') +
-      arrow(660, y + 15, (x - p[0]) * 8, 0, C.blue);
+      rect(620, y - 4, s * 8, 8, C.gold, 'none') +
+      line(800, y - 10, 800, y + 10, C.grid, 1) +
+      arrow(800, y, (x - p[0]) * 8, 0, C.blue);
   });
+  b += text(620, 68, 'Distance', 15, C.gold, 'start') + text(800, 68, 'Displacement', 15, C.blue);
   return panel(
     'Follow the route; compare distance with displacement',
     b,
@@ -238,7 +244,7 @@ function vectorAddition(t) {
     arrow(x, y, 0, (-230 * 5) / 9, C.purple);
   b +=
     visible(t > 0.65, arrow(180, 250, 230, (-230 * 5) / 9, C.green)) +
-    text(305, 235, 'A: 9 units east', 17, C.blue) +
+    text(295, 274, 'A: 9 units east', 17, C.blue) +
     text(x + 20, y - 60, 'B', 22, C.purple);
   b +=
     text(650, 110, 'Translate B; do not rotate it.', 18) +
@@ -251,8 +257,11 @@ function vectorAddition(t) {
 }
 
 function boat(t) {
-  const x = 190 + 360 * t,
-    y = 270 - 170 * t;
+  // The bow reaches the far bank (y = 70) at t = 1; the vector triangle fades
+  // out over the last stretch so it never sticks out past the bank.
+  const x = 190 + 420 * t,
+    y = 270 - 200 * t,
+    o = f(clamp((1 - t) / 0.25));
   let b =
     rect(130, 70, 600, 215, C.fill, 'none') +
     line(130, 70, 730, 70, C.green, 7) +
@@ -262,7 +271,7 @@ function boat(t) {
     path(
       [
         [190, 270],
-        [550, 100],
+        [610, 70],
       ],
       C.guide
     ) +
@@ -274,15 +283,18 @@ function boat(t) {
       ],
       C.gold,
       C.ink
-    ) +
+    );
+  const vectors =
     arrow(x, y, 0, -60, C.blue) +
     arrow(x, y - 60, 126, 0, C.purple) +
     arrow(x, y, 126, -60, C.green);
+  b += `<g opacity="${o}">${vectors}</g>`;
   b +=
-    dot(190 + 360 * t, 270, 4, C.purple) +
-    text(760, 100, 'Water drift', 16, C.purple) +
-    text(760, 140, 'Boat in water', 16, C.blue) +
-    text(760, 180, 'Ground velocity', 16, C.green);
+    dot(190 + 420 * t, 270, 4, C.purple) +
+    text(190 + 420 * t, 308, 'drift', 13, C.purple) +
+    text(745, 100, 'Water drift', 16, C.purple, 'start') +
+    text(745, 140, 'Boat in water', 16, C.blue, 'start') +
+    text(745, 180, 'Ground velocity', 16, C.green, 'start');
   return panel(
     'River current changes the boat’s ground track',
     b,
@@ -336,19 +348,22 @@ function elevator(t) {
     rect(218, 275 + dy, 50, 9, C.blue) +
     person(243, 275 + dy);
   b +=
-    text(245, 310, 'Elevator moving upward', 16) +
-    dot(520, 170, 7, C.ink) +
-    arrow(520, 170, 0, 88, C.red) +
-    arrow(520, 170, 0, -s.normal / 8.35, C.blue);
+    text(245, 58, 'Elevator moving upward', 16) +
+    dot(420, 170, 7, C.ink) +
+    arrow(420, 170, 0, 88, C.red) +
+    arrow(420, 170, 0, -s.normal / 8.35, C.blue);
   b +=
-    text(560, 258, 'w = 735 N', 18, C.red, 'start') +
-    text(560, 85, 'Fₛ = scale reading', 18, C.blue, 'start');
+    text(440, 258, 'w = 735 N', 18, C.red, 'start') +
+    text(440, 85, 'Fₛ = scale reading', 18, C.blue, 'start');
   for (const [show, label, n] of [
     [time < 1 / 1.2, 'Accelerating upward: a = +1.20 m/s²', 'Fₛ = 825 N'],
     [time >= 1 / 1.2 && time < 1 / 1.2 + 2, 'Constant upward speed: a = 0', 'Fₛ = 735 N'],
     [time >= 1 / 1.2 + 2, 'Slowing while moving upward: a = −1.20 m/s²', 'Fₛ = 645 N'],
   ]) {
-    b += visible(show, text(635, 140, label, 16) + text(635, 190, n, 24, C.blue));
+    b += visible(
+      show,
+      text(500, 140, label, 16, C.ink, 'start') + text(500, 190, n, 24, C.blue, 'start')
+    );
   }
   return panel(
     'A scale measures normal force, not velocity',
@@ -373,7 +388,7 @@ function swimmer(t) {
   b +=
     text(450, 65, 'Contact forces act on different objects', 18) +
     text(170, 120, 'Force on swimmer', 17, C.blue) +
-    text(760, 115, 'Force on wall', 17, C.red);
+    text(780, 72, 'Force on wall', 17, C.red);
   b += visible(!contact, text(420, 260, 'After contact: coasting, no wall force', 19));
   return panel(
     'Newton’s third law: pushing off a wall',
@@ -383,7 +398,7 @@ function swimmer(t) {
 }
 
 function sled(t) {
-  const x = 130 + 400 * t * t,
+  const x = 130 + 360 * t * t,
     y = 235;
   let b =
     line(70, 260, 810, 260, C.ink) +
@@ -396,10 +411,10 @@ function sled(t) {
     arrow(x + 20, y, 0, -80, C.blue) +
     arrow(x + 20, y, 0, 80, C.green);
   b +=
-    text(640, 100, '4 equal thrusts →', 18, C.red) +
-    text(640, 145, '← friction', 18, C.purple) +
-    text(640, 190, 'Fnet = 4T − f > 0', 20) +
-    text(640, 225, 'N = w', 20);
+    text(600, 100, '4 equal thrusts →', 18, C.red, 'start') +
+    text(600, 145, '← friction', 18, C.purple, 'start') +
+    text(600, 190, 'F_net = 4T − f > 0', 20, C.ink, 'start') +
+    text(600, 225, 'N = w', 20, C.ink, 'start');
   return panel(
     'Rocket sled: net force changes speed',
     b,
@@ -474,16 +489,16 @@ function strain(t) {
   let b = '';
   for (const sign of [1, -1]) {
     const cx = sign === 1 ? 260 : 650,
-      h = 130 + sign * 40 * q,
+      h = 120 + sign * 36 * q,
       w = 70;
     b +=
-      rect(cx - w / 2, 165 - 65, w, 130, 'none', C.grid) +
-      rect(cx - w / 2, 165 - h / 2, w, h, C.fill) +
-      arrow(cx, 165 - h / 2, 0, -sign * 55, C.red) +
-      arrow(cx, 165 + h / 2, 0, sign * 55, C.red);
+      rect(cx - w / 2, 168 - 60, w, 120, 'none', C.grid) +
+      rect(cx - w / 2, 168 - h / 2, w, h, C.fill) +
+      arrow(cx, 168 - h / 2, 0, -sign * 45, C.red) +
+      arrow(cx, 168 + h / 2, 0, sign * 45, C.red);
     b += text(
       cx,
-      290,
+      314,
       sign === 1 ? 'Tension: length increases' : 'Compression: length decreases',
       18
     );
@@ -513,7 +528,7 @@ function angularSpeed(t) {
     text(630, 115, 'Both markers: same angular speed ω', 20) +
     text(630, 165, 'Outer radius = 2 × inner radius', 19) +
     text(630, 210, 'Outer speed = 2 × inner speed', 19, C.red) +
-    text(630, 265, 'v = rω     Δs = rΔθ', 22);
+    text(630, 265, 'v = rω,   Δs = rΔθ', 22);
   return panel(
     'Equal angles, unequal distances',
     b,
@@ -604,8 +619,8 @@ function work(t) {
         series(q => [x0 + 260 * q, Y - force(q)]),
         C.blue
       ) +
-      line(x0 + 260 * t, Y, x0 + 260 * t, 65, C.red, 2) +
-      text(x0 + 125, 95, variable ? 'Variable force' : 'Constant force', 18);
+      line(x0 + 260 * t, Y, x0 + 260 * t, 120, C.red, 2) +
+      text(x0 + 170, 106, variable ? 'Variable force' : 'Constant force', 18);
   }
   return panel(
     'Work accumulates as signed area under F∥ versus x',
@@ -641,7 +656,7 @@ function frictionWork(t) {
 function conservative(t) {
   let b = '';
   for (const curve of [false, true]) {
-    const ox = curve ? 510 : 90,
+    const ox = curve ? 510 : 50,
       fn = q => [ox + 220 * q + (curve ? 35 * Math.sin(Math.PI * q) : 0), 270 - 160 * q];
     b +=
       path(series(fn), C.guide) +
@@ -652,7 +667,7 @@ function conservative(t) {
       rect(ox + 220 * (1 - t), 290, 220 * t, 9, C.gold, 'none');
   }
   b +=
-    text(450, 110, 'Compare at equal heights: same speed', 19) +
+    text(450, 110, 'Compare at equal heights: same speed', 18) +
     text(450, 150, 'K + U = constant', 23);
   return panel(
     'Mechanical energy depends on height, not the route',
@@ -854,7 +869,7 @@ function acceleration(t) {
     text(665, 130, 'Gold: tangential acceleration', 18, C.gold) +
     text(665, 170, 'Purple: radial acceleration', 18, C.purple) +
     text(665, 210, 'Blue: total acceleration', 18, C.blue) +
-    text(665, 270, 'aᵣ = v²/r     aₜ = rα', 22);
+    text(665, 270, 'aᵣ = v²/r,   aₜ = rα', 22);
   return panel(
     'Acceleration changes speed and direction',
     b,

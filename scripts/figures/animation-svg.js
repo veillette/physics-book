@@ -20,8 +20,19 @@ const line = (x1, y1, x2, y2, color = C.ink, width = 2, dash = '') =>
   `<line x1="${f(x1)}" y1="${f(y1)}" x2="${f(x2)}" y2="${f(y2)}" stroke="${color}" stroke-width="${width}"${dash ? ` stroke-dasharray="${dash}"` : ''}/>`;
 const rect = (x, y, w, h, fill = C.fill, stroke = C.ink, opacity = 1) =>
   `<rect x="${f(x)}" y="${f(y)}" width="${f(w)}" height="${f(h)}" fill="${fill}" stroke="${stroke}" opacity="${opacity}"/>`;
+// A letter followed by _x or _{xy} renders x or xy as a subscript, so labels
+// such as F_L or p_tot never show a literal underscore. The text after each
+// subscript sits in a tspan that shifts back to the baseline.
+const subscripts = (value, size) =>
+  escapeXml(value).replace(
+    /([A-Za-z])_(?:\{([^}]+)\}|([A-Za-z0-9]+))((?:(?![A-Za-z]_[{A-Za-z0-9])[^])*)/g,
+    (_, base, braced, bare, rest) =>
+      `${base}<tspan dy="${f(0.3 * size)}" font-size="${f(0.75 * size)}">${braced ?? bare}</tspan>${
+        rest ? `<tspan dy="${f(-0.3 * size)}">${rest}</tspan>` : ''
+      }`
+  );
 const text = (x, y, value, size = 17, color = C.ink, anchor = 'middle') =>
-  `<text x="${f(x)}" y="${f(y)}" font-family="Arial, Helvetica, sans-serif" font-size="${size}" fill="${color}" text-anchor="${anchor}">${escapeXml(value)}</text>`;
+  `<text x="${f(x)}" y="${f(y)}" font-family="Arial, Helvetica, sans-serif" font-size="${size}" fill="${color}" text-anchor="${anchor}">${subscripts(String(value), size)}</text>`;
 const path = (points, color = C.blue, fill = 'none', width = 2) =>
   `<path d="${points.map(([x, y], i) => `${i ? 'L' : 'M'} ${f(x)} ${f(y)}`).join(' ')}" stroke="${color}" stroke-width="${width}" fill="${fill}"/>`;
 const polygon = (points, fill = C.blue, stroke = 'none') =>
@@ -45,11 +56,14 @@ const arrow = (x, y, dx, dy, color = C.blue, width = 3) => {
 };
 const visible = (show, markup) => `<g opacity="${show ? 1 : 0}">${markup}</g>`;
 // Fixed glyph structure permits script-free numerical readouts. Animate opacity
-// discretely so two digits never overlap during a transition.
+// discretely so two digits never overlap during a transition. Leading integer
+// zeros stay blank, except the one just before the decimal point.
 function number(x, y, value, integers = 2, decimals = 1, signed = false) {
   const digits = Math.round(Math.abs(value) * 10 ** decimals)
     .toString()
     .padStart(integers + decimals, '0');
+  const lead = digits.search(/[1-9]/),
+    firstShown = lead === -1 ? integers - 1 : Math.min(lead, integers - 1);
   let result = '',
     offset = 0;
   if (signed) {
@@ -59,11 +73,15 @@ function number(x, y, value, integers = 2, decimals = 1, signed = false) {
   }
   for (let i = 0; i < integers + decimals; i += 1) {
     if (i === integers && decimals) {
-      result += text(x + offset, y, '.', 19);
-      offset += 7;
+      // Digits are centered 12 apart; the point sits in a narrower 7-unit slot.
+      result += text(x + offset - 3, y, '.', 19);
+      offset += 4;
     }
     for (let digit = 0; digit < 10; digit += 1) {
-      result += visible(Number(digits[i]) === digit, text(x + offset, y, digit, 19));
+      result += visible(
+        i >= firstShown && Number(digits[i]) === digit,
+        text(x + offset, y, digit, 19)
+      );
     }
     offset += 12;
   }

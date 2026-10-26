@@ -1320,7 +1320,9 @@ export default {
     }
     speeds.push(speeds[0]);
     const maxSpeed = Math.max(...speeds);
-    const lengths = speeds.map(s => 80 + (s / maxSpeed) * 160);
+    // Proportional to speed, so aphelion and perihelion arrows keep the true
+    // (1 − e)/(1 + e) ratio; 170 px keeps the perihelion arrow on the canvas.
+    const lengths = speeds.map(s => (s / maxSpeed) * 170);
     const orbit = timedPath(samples);
     const orbitDur = '14s';
     svg.motionGroup(
