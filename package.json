@@ -98,7 +98,7 @@
     "@11ty/eleventy": "4.0.0-alpha.10",
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.64.1",
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.6.6",
     "chalk": "^6.0.1",
     "cheerio": "^1.2.0",
     "entities": "^8.1.0",
